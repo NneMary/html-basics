@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 60%;
+            margin: auto;
+            background-color: black;
+            color: #fff;
+        }
+
+        .m1 {
+            background-color: #ca4c4c;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px 90px 8px 180px;
+            font-size: 17px;
+        }
+
+        header #ph {
+            padding-left: 80px;
+        }
+
+        .m2{
+            display: flex;
+            width: 80%;
+            align-items: center;
+            margin: auto;
+        }
+
+        .d1 {
+            background-color: #bd6f7c;
+            width: 20%;
+            height: 45vh;
+            text-align: center;
+        }
+
+        .d1 #p1 {
+            padding-top: 120px;
+        }
+
+        .d1 p {
+            padding-top: 20px;
+        }
+
+        .d2 {
+            background-color: #6bb2f4;
+            width: 60%;
+            height: 45vh;
+            text-align: center;
+        }
+
+        .d2 #p2 {
+            padding-top: 120px;
+        }
+
+        .d2 p {
+            padding-top: 20px;
+        }
+
+        .d3 {
+            background-color: #bd6f7c;
+            width: 20%;
+            height: 45vh;
+            text-align: center;
+        }
+
+        .d3 #p3 {
+            padding-top: 120px;
+        }
+
+        .d3 p {
+            padding-top: 20px;
+        }
+
+        .m3 {
+            background-color: #ca4c4c;
+            width: 80%;
+            margin: auto;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            padding: 7px 90px 8px 357px;
+        }
+
+        footer #pf {
+            padding-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="m1">
+        <header>
+            <p>fixed height <br> 100% width</p>
+            <p id="ph">header</p>
+        </header>
+    </section>
+
+    <section class="m2">
+        <div class="d1">
+            <p id="p1">Left</p>
+            <p>fixed width <br> 100% height</p>
+        </div>
+
+        <div class="d2">
+            <p id="p2">middle</p>
+            <p>100% width <br> 100% height</p>
+        </div>
+
+        <div class="d3">
+            <p id="p3">right</p>
+            <p>fixed width <br> 100% height</p>
+        </div>
+    </section>
+
+    <section class="m3">
+        <footer>
+            <p>footer</p>
+            <p id="pf">fixed height <br> 100% width</p>
+        </footer>
+    </section>
+</body>
+</html>
